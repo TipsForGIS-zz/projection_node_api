@@ -1,5 +1,5 @@
 var express = require('express');
-var projection = require('./controllers/projection.js')
+var projection = require('./projection.js')
 
 var app = express();
 app.listen(777,function(){
